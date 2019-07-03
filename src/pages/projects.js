@@ -3,9 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import Nav from "../components/nav"
-import Bio from "../components/bio"
 
 class AboutPage extends React.Component {
     render () {

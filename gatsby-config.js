@@ -6,17 +6,7 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `faizaanmadhani`,
-    },
-    menuLinks:[
-            {
-               name:'home',
-               link:'/'
-            },
-            {
-               name:'page2',
-               link:'/page-2'
-            }
-          ]
+    }
   },
   plugins: [
     {
