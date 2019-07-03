@@ -1,12 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `Faizaan's Personal Website and Blog`,
+    title: 'Faizaan Madhani',
     author: `Faizaan Madhani`,
     description: `Faizaan's Starter Website`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `faizaanmadhani`,
     },
+    menuLinks:[
+            {
+               name:'home',
+               link:'/'
+            },
+            {
+               name:'page2',
+               link:'/page-2'
+            }
+          ]
   },
   plugins: [
     {
