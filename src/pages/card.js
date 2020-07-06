@@ -8,8 +8,8 @@ console.log(image)
 
 function HappyCard(props) {
     return ( 
-        <Container>
-                    <Container style={{textAlign: "center"}}>
+        <Container style={{textAlign: "center"}}>
+                    {/* <Container style={{textAlign: "center"}}>
                         <div text-align="center"><h1>Happy Father's Day!</h1></div>
                         <img src={image}></img>
                     </Container>
@@ -33,7 +33,8 @@ function HappyCard(props) {
                             </p>
                             
                             </div>
-                    </Container>
+                    </Container> */}
+                    <p>Hmmm, how did you get here?</p>
         </Container>
     )
 }

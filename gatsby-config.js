@@ -9,6 +9,7 @@ module.exports = {
     }
   },
   plugins: [
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,6 +22,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`
       },
     },
     {

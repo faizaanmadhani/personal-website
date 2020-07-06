@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Img, Button } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,10 +9,11 @@ class AboutPage extends React.Component {
     render () {
         const { data } = this.props
         const siteTitle = data.site.siteMetadata.title
+        const projects = data.allProjectsJson.edges
 
         return (
             <Layout location={this.props.location} title={siteTitle}>
-            <SEO title="About" />
+            <SEO title="Projects" />
             <Nav />
 
                 <div>
@@ -23,10 +24,24 @@ class AboutPage extends React.Component {
                     
                 </div>
 
-                
-
-
-
+                <div className="project-list">
+      {projects.map(project => (
+        <div key={project.node.id} className="project-list__item">
+          <div className="project-list__thumbnail">
+            {/* <Img fluid={project.node.thumbnailImage.childImageSharp.fluid} /> */}
+          </div>
+          <div className="project-list__content">
+            <h2>{project.node.title}</h2>
+            <div className="project-list__excerpt">
+              {project.node.description}
+            </div>
+            <a href={project.node.url}>
+              <p>Visit Project</p>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
 
 
             </Layout>
@@ -42,6 +57,24 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allProjectsJson {
+      edges {
+        node {
+          id
+          title
+          date
+          description
+          url
+          # thumbnailImage {
+          #   childImageSharp {
+          #     fluid(maxWidth: 1200) {
+          #       ...GatsbyImageSharpFluid
+          #     }
+          #   }
+          # }
+        }
       }
     }
 }`
