@@ -6,9 +6,12 @@ import "./profile.css"
 
 const Profile = (props) => {
     return (
-      <div className="container">
+      <div className="container-profile">
         <div>
-          Hi, my name is Faizaan. This is a profile summary. 
+          Image
+        </div>
+        <div className="profile_text">
+          Profile Summary
         </div>
       </div>
     )

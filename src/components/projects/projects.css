@@ -1,0 +1,9 @@
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    @media (max-width: 768px) {
+      width: 400px;
+    }
+}
