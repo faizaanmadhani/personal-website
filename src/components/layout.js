@@ -64,13 +64,6 @@ const Layout = ({ location, title, children, pageTitle }) => {
         }}>
           Blog
         </Link>
-        {/* <Link to={'/reading-list'} style={{
-          paddingRight: 20,
-          textDecoration: 'none',
-          boxShadow: 'none',
-        }}>
-          Reading List
-        </Link> */}
       </MenuWrapper>
       </React.Fragment>
     )
@@ -104,13 +97,6 @@ const Layout = ({ location, title, children, pageTitle }) => {
         }}>
           Blog
         </Link>
-        {/* <Link to={'/reading-list'} style={{
-          paddingRight: 20,
-          textDecoration: 'none',
-          boxShadow: 'none',
-        }}>
-          Reading List
-        </Link> */}
       </MenuWrapper>
       </React.Fragment>
     )

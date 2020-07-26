@@ -1,1 +1,0 @@
-module.exports = require("/Users/faizaanmadhani/Desktop/Projects/personal-website/src/utils/typography")
