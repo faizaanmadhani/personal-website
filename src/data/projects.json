@@ -28,7 +28,7 @@
     "devposturl":""
   },
   {
-    "title": "Social Development Center",
+    "title": "Social Development Centre",
     "subtitle": "Digital Flowcharts to provide access to social-services information",
     "description": "As part of my work at UW Blueprint, I helped develop an online platform to allow users to retrieve information regarding legal, housing and financial help in their community.",
     "githuburl": "https://github.com/uwblueprint/sdc-web",
@@ -36,7 +36,7 @@
   },
   {
     "title": "Bittorent Client",
-    "subtitle": "A CLI Bittorent Client, built in Go",
+    "subtitle": "A CLI based Bittorent Client, built in Go",
     "description": "To learn more about networking, concurrency, encoding and Go, I built a bittorent client.",
     "githuburl":"https://github.com/faizaanmadhani/bittorent_client",
     "devposturl":""
