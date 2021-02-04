@@ -75,7 +75,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Faizaan Madhani's Blog`,
+        name: `Faizaan Madhani's Website`,
         short_name: `FM Blog`,
         start_url: `/`,
         background_color: `#F7F8FC`,

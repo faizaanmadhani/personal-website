@@ -11,17 +11,20 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="About" />
-      <h3 style={{fontFamily: `Sans-serif, Monospace`}}>
-        Hi!
-      </h3>
+        <br></br>
       <p>
-      For recruiters, here's my <a href="https://drive.google.com/file/d/14w59RUejrrd9CUXb3Zr1g79z5qWy-Vtf/view?usp=sharing">resume!</a> I'm a 2A Computer Science student at the University of Waterloo. In the past, I've interned at Human_Code and HiRide, and I'm currently seeking internships for Spring/Winter 2021. <br></br><br></br>
-
-I'm passionate about Web and Mobile Development, and Software Infastructure. I'm ardent about using tech for social good and volunteer as a Project Developer for UW Blueprint, where the applications I've worked on have helped Not-for-Profit organizations be successful. <br></br><br></br>
-
-I'm also the founder of the Not-For-Profit <a href="https://hackthehammer.com/">Hack the Hammer</a>, where I spent two years organizing hackathons: <a href="https://uh.hackthehammer.com/">This one</a> and <a href="https://s1.hackthehammer.com/">this one.</a> Currently, I serve as an advisor to the organization. <br></br><br></br>
-
-In my free time I spend hours reading, occasionally write, attend hackathons and tech conferences, and rock climb! <br></br><br></br>
+      
+      For recruiters, here's my <a href="https://drive.google.com/file/d/14w59RUejrrd9CUXb3Zr1g79z5qWy-Vtf/view?usp=sharing">resume!</a> 
+      <br></br><br></br>
+      Hi, I'm Faizaan! I'm a Computer Science student at the University of Waterloo. I'm passionate about Web and Mobile Development, Machine Learning and Software Infastructure. 
+      <br></br><br></br>
+      Currently, I'm working at <a href="https://www.kinaxis.com/en">Kinaxis</a> as a Software Developer Intern. In the past, I've worked at <a href="https://humancode.ca/">Human_Code</a> and <a href="https://hiride.ca/">HiRide</a>, and I'm currently seeking internships for the Fall of 2021.
+      <br></br><br></br>
+      I'm ardent about using tech for social good and volunteer as a Technical Lead for <a href="https://uwblueprint.org/">UW Blueprint</a>, where the applications I've worked on have helped not-for-profit organizations be successful.
+      <br></br><br></br>
+      I'm also the founder of the not-for-profit <a href="https://hackthehammer.com/">Hack the Hammer</a>, where I spent two years organizing hackathons.
+      <br></br><br></br>
+      In my free time I spend hours reading, occasionally write, attend hackathons and tech conferences, develop my technical skills by exploring new fields, and rock climb!
 
       </p>
     </Layout>

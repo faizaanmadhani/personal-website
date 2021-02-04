@@ -9,7 +9,7 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle} pageTitle="Blog">
+    <Layout location={location} title={siteTitle} pageTitle="Writings">
       <SEO title="All posts" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug

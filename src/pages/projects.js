@@ -25,7 +25,7 @@ const ProjectsPage = ({ data, location }) => {
       <br></br>
       <div>
         <p><i>
-          This is a small selection of the projects I've worked on or am working on. The rest can be found on my github profilt <a href="https://github.com/faizaanmadhani">here</a> or my devpost profile <a href="https://devpost.com/fzmadhani">here</a></i>.
+          This is a small selection of the projects I've worked on or am working on. The rest can be found on my github profile <a href="https://github.com/faizaanmadhani">here</a> or my devpost profile <a href="https://devpost.com/fzmadhani">here </a>. For each project, click the Github logo to be taken to the repository</i>.
         </p>
       </div>
       <div>

@@ -46,6 +46,7 @@ const Layout = ({ location, title, children, pageTitle }) => {
         <Link to={'/'} style={{
           paddingRight: 20,
           textDecoration: 'none',
+          fontFamily: `Sans-serif, Monospace`,
           boxShadow: 'none',
         }}>
           Home
@@ -53,16 +54,18 @@ const Layout = ({ location, title, children, pageTitle }) => {
         <Link to={'/projects'} style={{
           paddingRight: 20,
           textDecoration: 'none',
+          fontFamily: `Sans-serif, Monospace`,
           boxShadow: 'none',
         }}>
           Projects
         </Link >
-        <Link to={'/blog'} style={{
+        <Link to={'/writings'} style={{
           paddingRight: 20,
           textDecoration: 'none',
+          fontFamily: `Sans-serif, Monospace`,
           boxShadow: 'none',
         }}>
-          Blog
+          Writings
         </Link>
       </MenuWrapper>
       </React.Fragment>
@@ -90,12 +93,12 @@ const Layout = ({ location, title, children, pageTitle }) => {
         }}>
           Projects
         </Link >
-        <Link to={'/blog'} style={{
+        <Link to={'/writings'} style={{
           paddingRight: 20,
           textDecoration: 'none',
           boxShadow: 'none',
         }}>
-          Blog
+          Writings
         </Link>
       </MenuWrapper>
       </React.Fragment>

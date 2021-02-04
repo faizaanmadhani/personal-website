@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Faizaan Madhani's personal website",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Faizaan Madhani's website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Faizaan Madhani",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": ""
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
