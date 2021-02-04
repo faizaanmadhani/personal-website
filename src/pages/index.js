@@ -16,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
       
       For recruiters, here's my <a href="https://drive.google.com/file/d/14w59RUejrrd9CUXb3Zr1g79z5qWy-Vtf/view?usp=sharing">resume!</a> 
       <br></br><br></br>
-      Hi, I'm Faizaan! I'm a Computer Science student at the University of Waterloo. I'm passionate about Web and Mobile Development, Machine Learning and Software Infastructure. 
+      Hi, I'm Faizaan! I'm a Computer Science student at the University of Waterloo. I'm passionate about Web and Mobile Development, Machine Learning and Software Infrastructure. 
       <br></br><br></br>
       Currently, I'm working at <a href="https://www.kinaxis.com/en">Kinaxis</a> as a Software Developer Intern. In the past, I've worked at <a href="https://humancode.ca/">Human_Code</a> and <a href="https://hiride.ca/">HiRide</a>, and I'm currently seeking internships for the Fall of 2021.
       <br></br><br></br>
